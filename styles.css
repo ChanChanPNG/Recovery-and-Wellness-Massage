@@ -18,3 +18,8 @@
 .request-form-embed iframe {display:block;width:100%;min-height:951px;border:0;}
 .request-form-card .request-form-note {font-size:.76rem!important;color:#758076!important;line-height:1.6;margin:18px 0 0!important;}
 @media(max-width:850px) {.request-section {grid-template-columns:1fr;gap:42px;padding:65px 24px 85px;}.request-intro {padding-top:0;}.request-form-card {padding:25px 18px;}}
+
+/* Single-column appointment request form */
+.request-section{display:block;max-width:880px;margin:0 auto;padding:72px 24px 110px;}
+.request-form-card{width:100%;}
+@media(max-width:850px){.request-section{padding:48px 20px 80px;}}

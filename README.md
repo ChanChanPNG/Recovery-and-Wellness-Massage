@@ -39,3 +39,6 @@ Use a static HTTP server from this directory, such as `python -m http.server 800
 - Updated navigation and booking calls-to-action across all four pages.
 - Appointment requests are **not** confirmed bookings. Set up Cadence's follow-up notifications inside GoHighLevel separately.
 - Original image assets are **not** included in this update because they were not among the files supplied. Keep the existing `assets/` folder in your GitHub repository unchanged when uploading these files.
+
+## Latest edit
+The booking page now contains just the centered appointment-request GHL form; the introductory side section was removed.
