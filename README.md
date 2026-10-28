@@ -42,3 +42,12 @@ Use a static HTTP server from this directory, such as `python -m http.server 800
 
 ## Latest edit
 The booking page now contains just the centered appointment-request GHL form; the introductory side section was removed.
+
+
+## Legal & Compliance extension (October 28, 2026)
+- Added `privacy-policy.html`, `terms-of-service.html`, `sms-policy.html`, and `anti-spam.html`. Each page uses the existing site header, footer, and styling.
+- Added a Legal & Compliance column to all existing page footers, and policy links under the appointment request form.
+- Business contact shown: (385) 556-4474 and West Jordan, Utah; verified business email and postal mailing address were not provided. Add validated contact details as appropriate.
+- No SMS consent settings, GHL widgets, popup behavior or campaign automations were changed. Verify all GHL form consent language, checkbox state, STOP/HELP processes and subscriber records directly. An appointment inquiry is not a marketing SMS opt-in.
+- Verify actual providers, retention periods, advertising cookies/trackers, cancellation and refund terms and messaging practices before publishing. The present ZIP contains no local `assets/` directory although HTML references one: copy the original assets from the deployed site or earlier complete build before deployment.
+- Test all four URLs and visual mobile layout on deployment. Legal drafts are not a certification of compliance or a substitute for counsel review.
